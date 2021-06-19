@@ -5,7 +5,6 @@ function mapCreator(keys, values) {
 			newMap.set(key, values[index]);
 		}
 	});
-
 	return newMap;
 }
 const map = mapCreator(
